@@ -1,6 +1,34 @@
 .title {
-  background-image: url("https://kj-dev-test-site.s3-us-west-1.amazonaws.com/person-using-audio-mixer-controller-2086669.jpg");
+  background-image: url("https://kj-dev-test-site.s3-us-west-1.amazonaws.com/vinyl-record-playing-164853.jpg");
   background-size: cover;
+  -webkit-filter: grayscale(60%) contrast(200%) saturate(50%);
+  filter: grayscale(70%) contrast(120%) saturate(50%);
   width: 100vw;
   height: 100vh;
+  padding-top: 1px;
+  overflow: hidden;
+}
+
+.title-text {
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  font-size: 10vw;
+  font-weight: bold;
+  color: #f9fafb;
+  -webkit-text-stroke: 2px white;
+
+  position: relative;
+  top: 0%;
+  left: 15%;
+  padding: 0px;
+  margin: 0;
+  width: 100vw;
+}
+
+.sub-text {
+  font-size: 4vw;
+  color: transparent;
+  -webkit-text-stroke: 0.5px white;
+
+  padding: 0px;
+  margin: 0;
 }
